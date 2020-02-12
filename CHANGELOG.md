@@ -2,6 +2,10 @@
 
 ## v20.04: (Upcoming Release)
 
+### nvmf
+
+Add 'no_wr_batching' parameter in 'spdk_nvmf_transport_opts' for the ability disable WR batching RDMA.
+
 ### vmd
 A new function, `spdk_vmd_fini`, has been added. It releases all resources acquired by the VMD
 library through the `spdk_vmd_init` call.
