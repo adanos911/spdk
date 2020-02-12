@@ -111,6 +111,9 @@
   # Set the maximum number outstanding I/O per shared receive queue. Relevant only for RDMA transport
   #MaxSRQDepth 4096
 
+  # Disable batching for RDMA requests
+  #NoWRBatching False
+
 [Transport]
   # Set TCP transport type.
   Type TCP
