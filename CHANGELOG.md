@@ -2,6 +2,10 @@
 
 ## v20.04: (Upcoming Release)
 
+### rpc
+
+Add optional 'no_wr_batching' parameter to 'nvmf_create_transport' RPC method.
+
 ### nvmf
 
 Add 'no_wr_batching' parameter in 'spdk_nvmf_transport_opts' for the ability disable WR batching RDMA.
